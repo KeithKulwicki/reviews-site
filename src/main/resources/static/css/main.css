@@ -1,0 +1,34 @@
+body{
+	background-image: url("/images/MovieTheater.jpg");
+	height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: white;
+	
+}
+h1{
+	font-style: bold;
+	font-variant: small-caps;
+	font-size:45px;
+}
+h2{
+	font-style: italic;
+	color:#C0C0C0;
+}
+img  {
+    height: 250px;
+    width: auto;
+}
+a {
+	color:#C0C0C0;
+	text-decoration: none;
+	font-size:30px;
+	padding: 5px;
+}
+div {
+	margin-left: 50px;
+}
+/*iframe{
+	border: solid 1px white;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);*/

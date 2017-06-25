@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title th:text="${onereview.title}" />
+	<link rel="stylesheet" type="text/css" href="/css/main.css"></link>
+</head>
+<body>
+	<h1 th:text="${onereview.title}" />
+	<h2 th:text="${onereview.synopsis}" />
+	<h4 th:text="
+	'Rated: ' + ${onereview.rating} + ' | ' +
+	'Runtime: ' + ${onereview.runtime} + ' | ' +
+	'Genres: ' + ${onereview.reviewCategory} + ' | ' +
+	'Release Date: ' + ${onereview.date}" />
+	<h3 th:text="'Stars: ' + ${onereview.content}  + ' | ' +
+	'Director: ' + ${onereview.director}"/>
+	<img th:src="${onereview.imageUrl}"/>
+<!-- 	<iframe width="560" height="315" frameborder="0" allowfullscreen src="${onereview.videoClip}"/>  -->
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Keith's Movie Lounge</title>
+	<link rel="stylesheet" type="text/css" href="/css/main.css"></link>
+</head>
+<body>
+	<h1>Keith's Movie Lounge</h1>
+
+
+
+	<a th:each="review: ${reviewsAsCollection}" th:href="@{http://localhost:8080/onereview/(id=${review.id})}"><div th:text="${review.title}"></div></a>
+
+
+
+</body>
+</html>
