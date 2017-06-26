@@ -17,7 +17,7 @@ public class Review {
 
 	// Constructor
 	public Review(long id, String title, String synopsis, String rating, String runtime, String reviewCategory,
-			String date, String content, String director, String imageUrl, String clip) {
+			String date, String content, String director, String imageUrl, String videoClip) {
 		this.id = id;
 		this.title = title;
 		this.synopsis = synopsis;

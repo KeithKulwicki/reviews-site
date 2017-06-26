@@ -5,16 +5,16 @@
 	<link rel="stylesheet" type="text/css" href="/css/main.css"></link>
 </head>
 <body>
-	<h1 th:text="${onereview.title}" />
-	<h2 th:text="${onereview.synopsis}" />
-	<h4 th:text="
+	<h1 class= "movie-title" th:text="${onereview.title}" />
+	<p class= "tag-line" th:text="${onereview.synopsis}" />
+	<p class= "movie-stats" th:text="
 	'Rated: ' + ${onereview.rating} + ' | ' +
 	'Runtime: ' + ${onereview.runtime} + ' | ' +
 	'Genres: ' + ${onereview.reviewCategory} + ' | ' +
 	'Release Date: ' + ${onereview.date}" />
-	<h3 th:text="'Stars: ' + ${onereview.content}  + ' | ' +
+	<p class= "movie-people" th:text="'Stars: ' + ${onereview.content}  + ' | ' +
 	'Director: ' + ${onereview.director}"/>
-	<img th:src="${onereview.imageUrl}"/>
-<!-- 	<iframe width="560" height="315" frameborder="0" allowfullscreen src="${onereview.videoClip}"/>  -->
+	<img class= "movie-poster" th:src="${onereview.imageUrl}"/>
+	<iframe class= "movie-clip" th:src="${onereview.videoClip}"></iframe>
 </body>
 </html>

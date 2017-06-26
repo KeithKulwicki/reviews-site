@@ -54,8 +54,7 @@ public class ReviewRepository {
 		
 		Review review6 = new Review(6, "This Is Spinal Tap (1984)",
 				"Does for rock and roll what The Sound of Music did for hills", "R", "1h 22min",
-				"Comedy, Music", "2 March 1984 (USA)", " Rob Reiner, Michael McKean, Christopher Guest", "Rob Reiner",
-				"/images/spinaltap.jpg", "https://www.youtube.com/embed/N63XSUpe-0o");
+				"Comedy, Music", "2 March 1984 (USA)", " Rob Reiner, Michael McKean, Christopher Guest", "Rob Reiner", "/images/spinaltap.jpg", "https://www.youtube.com/embed/N63XSUpe-0o");
 
 		reviewMap.put(review6.getId(), review6);	
 		

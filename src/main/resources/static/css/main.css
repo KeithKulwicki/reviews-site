@@ -1,3 +1,4 @@
+/* -- All Styling -- */
 body{
 	background-image: url("/images/MovieTheater.jpg");
 	height: 100%;
@@ -5,30 +6,56 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 	color: white;
-	
 }
 h1{
+	color: #800000;
 	font-style: bold;
 	font-variant: small-caps;
 	font-size:45px;
+	background-color: #F0E68C
 }
-h2{
-	font-style: italic;
-	color:#C0C0C0;
-}
-img  {
-    height: 250px;
-    width: auto;
-}
-a {
-	color:#C0C0C0;
+/* -- reviews specific Styling -- */
+.review-list {
+	color:#F0E68C;
 	text-decoration: none;
-	font-size:30px;
-	padding: 5px;
+	font-size:25px;
+	padding: 1px;
+
 }
 div {
 	margin-left: 50px;
+	background-color: #800000;
+	
 }
-/*iframe{
-	border: solid 1px white;
-	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);*/
+/* -- oneReview specific Styling -- */
+.tag-line{
+	font-style: italic;
+	font-size:25px;
+	color:#F0E68C;
+	background-color: #800000;
+}
+.movie-stats{
+	font-size:20px;
+	color:#F0E68C;
+	background-color: #8B0000;
+	margin-left: 50px;
+}
+.movie-people{
+	font-size:25px;
+	color: #800000;
+	background-color: #F0E68C;
+	margin-left: 50px;
+}
+img  {
+	border: solid 3px #F0E68C;
+    height: 250px; width: auto;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 50px;
+}
+
+.movie-clip{
+	border: solid 3px #F0E68C;;
+	height: 250px; width: auto;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+	margin-left: 50px;
+	}
