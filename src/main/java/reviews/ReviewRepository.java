@@ -34,14 +34,16 @@ public class ReviewRepository {
 		Review review3 = new Review(3, "Batman (1989)",
 				"Only one will claim the night. The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker.",
 				"PG-13", "2h 6min", "Adventure, Action", "23 June 1989 (USA)",
-				"Michael Keaton, Jack Nicholson, Kim Basinger", "Tim Burton", "/images/Batman1989.jpg", "https://www.youtube.com/embed/F07Mf1kxUKY");
+				"Michael Keaton, Jack Nicholson, Kim Basinger", "Tim Burton", "/images/Batman1989.jpg",
+				"https://www.youtube.com/embed/F07Mf1kxUKY");
 
 		reviewMap.put(review3.getId(), review3);
 
 		Review review4 = new Review(4, "Batman: The Movie (1966)",
 				"The Dynamic Duo faces four supervillains planning to hold the world for ransom.", "Approved",
 				"1h 45min", "Adventure, Comedy, Crime, Family, Fantasy", "30 July 1966 (USA)",
-				"Adam West, Burt Ward, Lee Meriwether", "Leslie H. Martinson", "/images/BatmanTheMovie1966.jpg", "https://www.youtube.com/embed/vvY5MgOgDUw");
+				"Adam West, Burt Ward, Lee Meriwether", "Leslie H. Martinson", "/images/BatmanTheMovie1966.jpg",
+				"https://www.youtube.com/embed/vvY5MgOgDUw");
 
 		reviewMap.put(review4.getId(), review4);
 
@@ -51,13 +53,35 @@ public class ReviewRepository {
 				"/images/mallrats.jpg", "https://www.youtube.com/embed/eOd5zJLsZEc");
 
 		reviewMap.put(review5.getId(), review5);
-		
-		Review review6 = new Review(6, "This Is Spinal Tap (1984)",
-				"Does for rock and roll what The Sound of Music did for hills", "R", "1h 22min",
-				"Comedy, Music", "2 March 1984 (USA)", " Rob Reiner, Michael McKean, Christopher Guest", "Rob Reiner", "/images/spinaltap.jpg", "https://www.youtube.com/embed/N63XSUpe-0o");
 
-		reviewMap.put(review6.getId(), review6);	
-		
+		Review review6 = new Review(6, "This Is Spinal Tap (1984)",
+				"Does for rock and roll what The Sound of Music did for hills", "R", "1h 22min", "Comedy, Music",
+				"2 March 1984 (USA)", " Rob Reiner, Michael McKean, Christopher Guest", "Rob Reiner",
+				"/images/spinaltap.jpg", "https://www.youtube.com/embed/N63XSUpe-0o");
+
+		reviewMap.put(review6.getId(), review6);
+
+		Review review7 = new Review(7, "PCU (1994)", "Flunk 'em if they can't take a joke", "PG-13", "1h 19min",
+				"Comedy", "29 April 1994 (USA)", "Jeremy Piven, Chris Young, Megan Ward", "Hart Bochner", "/images/pcu.jpg",
+				"https://www.youtube.com/embed/aIpuS8vTBts?list=PLZ6zFb8Kwj0as8gUOJ2J67AQrYKcgh1pU");
+
+		reviewMap.put(review7.getId(), review7);
+
+		// Review review# = new Review(
+		// #,
+		// "name",
+		// "tag",
+		// "rating",
+		// "runtime",
+		// "Genere",
+		// "release",
+		// "stars",
+		// "director",
+		// "/images/XXX",
+		// "https://www.youtube.com/embed/XXX");
+		//
+		// reviewMap.put(review#.getId(), review#);
+
 	}
 
 	// Method find all values in review map
