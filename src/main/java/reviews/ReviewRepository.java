@@ -62,10 +62,24 @@ public class ReviewRepository {
 		reviewMap.put(review6.getId(), review6);
 
 		Review review7 = new Review(7, "PCU (1994)", "Flunk 'em if they can't take a joke", "PG-13", "1h 19min",
-				"Comedy", "29 April 1994 (USA)", "Jeremy Piven, Chris Young, Megan Ward", "Hart Bochner", "/images/pcu.jpg",
-				"https://www.youtube.com/embed/aIpuS8vTBts?list=PLZ6zFb8Kwj0as8gUOJ2J67AQrYKcgh1pU");
+				"Comedy", "29 April 1994 (USA)", "Jeremy Piven, Chris Young, Megan Ward", "Hart Bochner",
+				"/images/pcu.jpg", "https://www.youtube.com/embed/aIpuS8vTBts?list=PLZ6zFb8Kwj0as8gUOJ2J67AQrYKcgh1pU");
 
 		reviewMap.put(review7.getId(), review7);
+
+		Review review8 = new Review(8, "A Clockwork Orange (1971)",
+				"Being the adventures of a young man ... who couldn't resist pretty girls ... or a bit of the old ultra-violence ... went to jail, was re-conditioned ... and came out a different young man ... or was he?",
+				"R", "2h 16min", "genre", "2 February 1972 (USA)", "Malcolm McDowell, Patrick Magee, Michael Bates",
+				"Stanley Kubrick", "/images/clockworkorange.jpg", "https://www.youtube.com/embed/vN-1Mup0UI0");
+
+		reviewMap.put(review8.getId(), review8);
+
+		Review review9 = new Review(9, "Reservoir Dogs (1992)",
+				"Four perfect killers. One perfect crime. Now all they have to fear is each other.", "R", "1h 39min",
+				"genre", "21 January 1992 (USA) (Sundance Film Festival)", "Harvey Keitel, Tim Roth, Michael Madsen",
+				"Quentin Tarantino", "/images/resdogs.jpg", "https://www.youtube.com/embed/vayksn4Y93A");
+
+		reviewMap.put(review9.getId(), review9);
 
 		// Review review# = new Review(
 		// #,
@@ -73,7 +87,7 @@ public class ReviewRepository {
 		// "tag",
 		// "rating",
 		// "runtime",
-		// "Genere",
+		// "genre",
 		// "release",
 		// "stars",
 		// "director",
