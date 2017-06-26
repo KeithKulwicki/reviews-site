@@ -76,10 +76,18 @@ public class ReviewRepository {
 
 		Review review9 = new Review(9, "Reservoir Dogs (1992)",
 				"Four perfect killers. One perfect crime. Now all they have to fear is each other.", "R", "1h 39min",
-				"genre", "21 January 1992 (USA) (Sundance Film Festival)", "Harvey Keitel, Tim Roth, Michael Madsen",
-				"Quentin Tarantino", "/images/resdogs.jpg", "https://www.youtube.com/embed/vayksn4Y93A");
+				"Crime, Drama", "21 January 1992 (USA) (Sundance Film Festival)",
+				"Harvey Keitel, Tim Roth, Michael Madsen", "Quentin Tarantino", "/images/resdogs.jpg",
+				"https://www.youtube.com/embed/vayksn4Y93A");
 
 		reviewMap.put(review9.getId(), review9);
+
+		Review review10 = new Review(10, "Goodfellas (1990)",
+				"In a world that's powered by violence, on the streets where the violent have power, a new generation carries on an old tradition.",
+				"R", "2h 26min", "Crime, Drama ", "21 September 1990 (USA)", "Robert De Niro, Ray Liotta, Joe Pesci",
+				"Martin Scorsese", "/images/goodfellas.jpg", "https://www.youtube.com/embed/h3QpxNI-PtE");
+
+		reviewMap.put(review10.getId(), review10);
 
 		// Review review# = new Review(
 		// #,
